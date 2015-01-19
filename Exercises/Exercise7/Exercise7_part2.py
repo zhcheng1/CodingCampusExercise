@@ -34,7 +34,7 @@ def temperature_converter(dict):
     #print out the results
     for key, value in dict.items():
         print """In %s it is %s degrees Celsius,
-        \t which is equivalent to %s degrees in Fahrenheit\n""" %(key, value[0], value[1])
+    which is equivalent to %s degrees in Fahrenheit\n""" %(key, value[0], value[1])
 
 
 temperature_converter(cities)
